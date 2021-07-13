@@ -1,1 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T12:50:14.949Z" agent="5.0 (X11)" version="14.8.6" etag="1rUao85zCjmuZe3oRNGT" type="github"><diagram id="E_lbqbcwLs7lWSh4cZM2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-13T12:56:39.175Z" agent="5.0 (X11)" etag="7hu8bJlN5W-dUezT5-Cd" version="14.8.6" type="github">
+  <diagram id="E_lbqbcwLs7lWSh4cZM2" name="Page-1">
+    <mxGraphModel dx="1422" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CAo_tgcoux-9CYObfloN-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-3" value="&lt;div&gt;DB&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="690" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-4" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CAo_tgcoux-9CYObfloN-1" target="CAo_tgcoux-9CYObfloN-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-5" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CAo_tgcoux-9CYObfloN-7" target="CAo_tgcoux-9CYObfloN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="445" y="245" as="sourcePoint" />
+            <mxPoint x="520" y="209.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-17" value="&lt;div&gt;Read/Write&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAo_tgcoux-9CYObfloN-5">
+          <mxGeometry x="-0.2242" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-6" value="LB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-7" value="&lt;div&gt;APP 1&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-10" value="APP 2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="315" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-11" value="APP 3" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-12" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CAo_tgcoux-9CYObfloN-6" target="CAo_tgcoux-9CYObfloN-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="354.5" as="sourcePoint" />
+            <mxPoint x="350" y="354.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-14" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="CAo_tgcoux-9CYObfloN-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CAo_tgcoux-9CYObfloN-6" target="CAo_tgcoux-9CYObfloN-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="370" as="sourcePoint" />
+            <mxPoint x="350" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-18" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CAo_tgcoux-9CYObfloN-10" target="CAo_tgcoux-9CYObfloN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="255" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-19" value="&lt;div&gt;Read/Write&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAo_tgcoux-9CYObfloN-18">
+          <mxGeometry x="-0.2242" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-21" value="" style="endArrow=classic;html=1;entryX=0.017;entryY=0.588;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CAo_tgcoux-9CYObfloN-11" target="CAo_tgcoux-9CYObfloN-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="370" as="sourcePoint" />
+            <mxPoint x="700" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-22" value="&lt;div&gt;Read/Write&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CAo_tgcoux-9CYObfloN-21">
+          <mxGeometry x="-0.2242" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CAo_tgcoux-9CYObfloN-23" value="30 mi / mês" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
